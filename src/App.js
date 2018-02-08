@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 import SearchBar from './components/SearchBar/SearchBar.js';
 
@@ -9,8 +9,8 @@ class App extends Component {
       <div className="App">
         <header>
           <img src={logo} className="App-logo" alt="logo" />
-          <SearchBar posts={this.state.displayedPosts} filterPosts={this.filterPOsts}/>
-          }
+          <SearchBar />
+          
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
