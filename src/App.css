@@ -3,10 +3,40 @@
   display: inline;
 }
 
+header {
+  padding: 0 15px;
+  background-color: rgb(46, 46, 117);
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  /* animation: App-logo-spin infinite 20s linear; */
   height: 35px;
-  display: inline;
+}
+
+.SearchBar {
+  display: block;
+  margin-left: 12px;
+}
+
+.Home-logo {
+  justify-content: flex-end;
+  display: block;
+  height: 45px;
+  width: 50px;
+  margin-left: 15px;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.pull-right {
+  justify-content: flex-end;
 }
 
 .App-header {
@@ -24,12 +54,8 @@
   font-size: large;
 }
 
-.SearchBar {
-  position: absolute;
-  display: inline;
-}
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+} */
