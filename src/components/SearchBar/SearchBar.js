@@ -7,6 +7,10 @@ class SearchBar extends Component {
     }
 
     render() {
+        console.log('vvv TAKE A LOOK IN HERE vvv');
+        console.log(this.props);
+        console.log('Does filterPosts even exist?');
+        console.log(this.props.filterPosts);
         return (
             <div className='SearchBar'>
                 <input className='SearchBar-field' 
